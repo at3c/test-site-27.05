@@ -9,14 +9,14 @@ body{
 	margin: 0px auto;
 }
 
-h1{
+h2{
 	margin:0;
 	font-size: 30px;
 	font-weight: 300;
 	line-height: 24px;
 }
 
-h2{
+h3{
 	margin: 0 0 10px 0;
 	font-size: 18px;
 	line-height: 35px;
@@ -47,6 +47,7 @@ p{
 	color: white;
 	font-size: 10px;
 	position: relative;
+	margin-bottom: 26px;
 }
 
 .nav-list{
@@ -80,24 +81,25 @@ p{
 }
 
 .logo{
-	position: relative;
-	top: -10px;
-    left: 0;
-    right: 0;
-    width: 90px;
-    margin: auto;
-    border-left: 30px solid white;
-    border-right: 30px solid white;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .bottom-logo img{
- width: 90px;
- height: 26px;
+	width: 90px;
+	height: 26px;
 }
+
+.menu{
+    	visibility: hidden;
+    	height: 0;
+    }
 
 /*portfolio*/
 
-.portfolio{
+.portfolio, .portfolio-2{
 	width: 100%;
 	height: 700px;
 	background-color: #FFFFFF;
@@ -105,18 +107,19 @@ p{
 	margin: 10px 0;
 }
 
+.portfolio-2{
+	display: none;
+}
+
 .first-line{
 	position: relative;
-	left: 50%;
     top: 70px;
-    margin: auto 0;
-    transform: translateX(-50%);
 }
 
 .buttons{
 	position: absolute;
 	bottom:10px;
-	left: 30px;	
+	left: 30px;
 }
 
 .button-slide{
@@ -189,6 +192,7 @@ p{
 	font-size: 12px;
 	padding-left:13px;
 	font-family: Tahoma, Geneva, sans-serif;
+	outline: none;
 }
 
 .form button,
@@ -200,6 +204,7 @@ p{
 	width: 90px;
 	margin-left: 505px;
 	background-color: #2EB398;
+	padding-right: 13px;
 }
 
 .form form textarea{
@@ -217,10 +222,31 @@ p{
  	color: #FFFFFF;
 }
 
-.widget p img{
- 	display: block-inline;
- 	margin-right: 10px;
+.awesom-contact{
+	width: 15px;
+	margin-right: 10px;
+	float: left;
+	line-height: 20px;
+	text-align: center;
+	font-size: 14px;
 }
+
+.awesom-contact i{
+ 	color: #2EB398;
+}
+
+.fa.fa-phone{
+	transform: scaleX(-1);
+}
+
+.mail{
+		text-decoration: none;
+		color: #A9A9A9;
+	}
+
+	.mail:hover{
+		color: #2EB398;
+	}
 
 /*Footer*/
 
@@ -235,3 +261,179 @@ p{
 	line-height: 42px;
 }
 
+/*Style for iphone5,6*/
+@media screen and (max-width: 780px) {
+.wrapper {width: 750px;}
+
+	h2{	
+	font-size: 40px;
+	line-height: 35px;
+	}
+
+	h3{
+	font-size: 22px;
+	line-height: 40px;
+	
+	}
+
+	p{
+	font-size: 16px;
+	line-height: 25px;
+	text-align: justify;
+	}
+
+	.wrapper-inner{
+		width: 700px;
+		top: 25px;
+	}
+
+	/* Navigation */
+	.main-nav{
+		height: 62px;
+	}
+
+	.nav-item{
+		visibility: hidden;
+	}
+
+	.menu{
+		display: inline-block;
+		visibility: visible;
+		position: absolute;
+		line-height: 63px;
+	}
+
+	.menu button{
+		width: 50px;
+		height: 50px;
+		margin: 5px;
+		border: none;
+	    padding: 0;
+	    outline: none;
+	    background-color: #323232;
+	    text-align: center;
+	}
+
+	.fa.fa-bars{
+		color: #FFFFFF;
+		line-height: 50px;
+		font-size: 35px;
+	}
+
+	.fa.fa-bars:hover {
+		color: #2EB398;
+		opacity: .6;
+		transition: 0.5s;
+	}
+
+	.fa.fa-bars:active{
+		color: #FFFFFF;
+	}
+
+	/*Portfolio*/
+	.portfolio{
+		display: none;
+	}
+
+	.portfolio-2{
+		display: block;
+		height: 600px
+	}
+
+	.hex.hex-gap-first {
+		margin-left: 185px;
+	}
+
+	.hex.hex-gap-second {
+		margin-left: 80px;
+	}
+
+	.first-line{
+		top:30px;
+	}
+
+	.style-slide{
+		position: absolute;
+		height: 600px;
+		width: 25px;
+		border: none;
+		outline: none;
+		margin: 0 10px;
+		font-size: 30px;
+		color: #BCBCBC;
+		background-color: transparent;
+	}
+
+	.slide-right{
+		right: 0px;
+	}
+
+	.style-slide:hover{
+		opacity: .6;
+		transition: 0.5s;
+	}
+
+	.style-slide:active{
+	color: #585858;
+	}
+
+	/* About*/
+		
+	.social {
+		position: absolute;
+		font-size: 10px;
+		right: 25px;
+		bottom: -20%;
+		transform: scale(1.3, 1.3);
+	}
+
+	.about-inner .hex{
+		margin-bottom: 50px;
+	}
+
+	/*Get in touch*/
+
+	.get-in-touch{
+		height: 550px;
+	}
+
+	.get-inner.wrapper-inner{
+		width: 600px;
+	}
+
+	.widget-none{
+		display: none;
+	}
+
+	.form{
+		float:none;
+	}
+
+	.widget{
+		margin-bottom: 0px;
+	}
+
+	.awesom-contact{
+		width: 15px;
+		margin-right: 10px;
+		float: left;
+		line-height: 25px;
+		text-align: center;
+		font-size: 15px;
+	}
+
+	.form input, .form button,
+	.form form textarea{
+		font-size: 16px;
+	}
+
+	.form form textarea{
+		height: 100px;
+	}
+
+	.form button:hover, .mail:hover{
+		opacity: .6;
+		transition: 0.5s;
+	}	
+
+}/* /Media */
