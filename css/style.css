@@ -104,7 +104,8 @@ p{
 	height: 700px;
 	background-color: #FFFFFF;
 	position: relative;
-	margin: 10px 0;
+	top: 50px;
+	margin: 0px
 }
 
 .portfolio-2{
@@ -261,9 +262,71 @@ p{
 	line-height: 42px;
 }
 
+/* Slider CSS3 */
+.wrap-slider{
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+	height: 600px;
+}
+
+.slider {	
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+}
+
+.slides {
+	margin-top: 20px;
+	height: inherit;
+	opacity: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 0;
+	right:100%;	
+	transition: right ease-in-out .8s, opacity ease-in-out .5s;
+}
+
+.wrap-slider > input {
+	display: none;
+}
+
+.wrap-slider .controls {	
+	position: absolute;
+}
+
+.wrap-slider label{
+	background-color: #DDD2C5;
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 5px 0 0;
+	position: relative;
+	width: 8px;	
+	transition: background ease-in-out .5s;
+}
+
+.wrap-slider label:hover{
+	background-color: #8B8784;
+}
+
+#slide1:checked ~ .slider > .slide1,
+#slide2:checked ~ .slider > .slide2,
+#slide3:checked ~ .slider > .slide3,
+#slide4:checked ~ .slider > .slide4,
+#slide5:checked ~ .slider > .slide5 {
+	opacity: 1;
+	z-index: 1;
+	right: 0;	
+}
+
+
 /*Style for iphone5,6*/
-@media screen and (max-width: 780px) {
-.wrapper {width: 750px;}
+@media all and (max-width: 780px) {
+	.wrapper {
+		width: 750px;
+	}
 
 	h2{	
 	font-size: 40px;
@@ -337,7 +400,8 @@ p{
 
 	.portfolio-2{
 		display: block;
-		height: 600px
+		height: 600px;
+		top:0;
 	}
 
 	.hex.hex-gap-first {
@@ -383,12 +447,12 @@ p{
 		position: absolute;
 		font-size: 10px;
 		right: 25px;
-		bottom: -20%;
+		bottom: -30px;
 		transform: scale(1.3, 1.3);
 	}
 
 	.about-inner .hex{
-		margin-bottom: 50px;
+		margin: 70px 20px;
 	}
 
 	/*Get in touch*/
