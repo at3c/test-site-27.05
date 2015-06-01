@@ -2,469 +2,403 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Test</title>
+	<title> Test </title>	
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/hexagon.css">
-	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="css/hexagon.css">	
 </head>
 <body>
-	<div class="wrapper">
-		<nav class="main-nav">
-			<div class="logo bottom-logo"><img src="img/logo_2.png" alt="logo_2"></div>
+	<div class="b-wrapper">
+		<nav class="b-nav">
+			<div class="b-nav_arrow-position"><img src="img/logo_2.png" alt="logo_2"></div>
 
-			<div class="menu">
-			<button type="button"><i class="fa fa-bars"></i></button>
+			<div class="b-nav_menu">
+			<button type="button" class="b-nav_button"><i class="fa fa-bars b-nav_bars"></i></button>
 			</div> 
 
-			<ul class="nav-list">
-				<li class="nav-item"><a class="nav-item-link" href="#">portfolio</a></li>
-				<li class="nav-item dot">&middot;</li>
-				<li class="nav-item space-logo"><a class="nav-item-link" href="#">about</a></li>
-				<li class="nav-item"><a class="nav-item-link" href="#">blog</a></li>
-				<li class="nav-item dot">&middot;</li>
-				<li class="nav-item"><a class="nav-item-link" href="#">get in touch</a></li>
+			<ul class="b-nav_list">
+				<li class="b-nav_item">
+				<a class="b-nav_elem b-nav_link b-nav_link_active" href="#">portfolio</a>
+				</li>
+				<li class="b-nav_item dot"><span class="b-nav_elem">&middot;</span>
+				</li>
+				<li class="b-nav_item space-logo">
+				<a class="b-nav_elem b-nav_link b-nav_link_active b-nav_elem_margin" href="#">about</a>
+				</li>
+				<li class="b-nav_item">
+				<a class="b-nav_elem b-nav_link b-nav_link_active" href="#">blog</a>
+				</li>
+				<li class="b-nav_item dot"><span class="b-nav_elem">&middot;</span>
+				</li>
+				<li class="b-nav_item">
+				<a class="b-nav_elem b-nav_link b-nav_link_active" href="#">get in touch</a>
+				</li>
 			</ul>
 		</nav><!-- /nav -->
 
-		<div class="portfolio">
+		
 
-				<div class="wrap-slider">
+		<div class="b-portfolio">
 
-					<input type="radio" name="point" id="slide1" checked>
-					<input type="radio" name="point" id="slide2">
-					<input type="radio" name="point" id="slide3">
-					<input type="radio" name="point" id="slide4">
-					<input type="radio" name="point" id="slide5">
+			<input class="b-portfolio_input b-portfolio_input_active1" type="radio" name="point" id="slide1" checked>
+			<input class="b-portfolio_input b-portfolio_input_active2" type="radio" name="point" id="slide2">
+			<input class="b-portfolio_input b-portfolio_input_active3" type="radio" name="point" id="slide3">
+			<input class="b-portfolio_input b-portfolio_input_active4" type="radio" name="point" id="slide4">
+			<input class="b-portfolio_input b-portfolio_input_active5" type="radio" name="point" id="slide5">
 
-					<div class="slider">
-						<div class="slides slide1">
+			<div class="b-portfolio_slider">
+				<div class="b-portfolio_slides b-portfolio_slide1">
 
-							<div class="hex hex-gap" style="background-image: url(img/layer-33.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-							
-							<div class="hex" style="background-image: url(img/layer-31.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-34.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-35.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>	
-
-							<div class="hex hex-gap-gap" style="background-image: url(img/layer-36.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-44.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-37.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-38.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-39.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-						
-							<div class="hex hex-gap" style="background-image: url(img/layer-40.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-41.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-43.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-42.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-						</div><!-- /slide1-->
-
-						<div class="slides slide2">
-							<div class="hex hex-gap" style="background-image: url(img/layer-31.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-							
-							<div class="hex" style="background-image: url(img/layer-31.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-31.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-31.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex hex-gap-gap" style="background-image: url(img/layer-31.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-31.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-31.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-31.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-31.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-						
-							<div class="hex hex-gap" style="background-image: url(img/layer-31.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-31.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-31.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-31.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-						</div><!-- /slide2-->
-
-						<div class="slides slide3">
-							<div class="hex hex-gap" style="background-image: url(img/layer-41.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-							
-							<div class="hex" style="background-image: url(img/layer-41.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-41.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-41.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex hex-gap-gap" style="background-image: url(img/layer-41.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-41.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-41.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-41.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-41.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-						
-							<div class="hex hex-gap" style="background-image: url(img/layer-41.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-41.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-41.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-41.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-						</div><!-- /slide3-->
-
-						<div class="slides slide4">
-							<div class="hex hex-gap" style="background-image: url(img/layer-39.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-							
-							<div class="hex" style="background-image: url(img/layer-39.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-39.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-39.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex hex-gap-gap" style="background-image: url(img/layer-39.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-39.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-39.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-39.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-39.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-						
-							<div class="hex hex-gap" style="background-image: url(img/layer-39.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-39.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-39.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-39.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-							
-						</div><!-- /slide4-->
-
-						<div class="slides slide5">
-							<div class="hex hex-gap" style="background-image: url(img/layer-38.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-							
-							<div class="hex" style="background-image: url(img/layer-38.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-38.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-38.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex hex-gap-gap" style="background-image: url(img/layer-38.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-38.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-38.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-38.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-38.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-						
-							<div class="hex hex-gap" style="background-image: url(img/layer-38.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-38.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-38.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-
-							<div class="hex" style="background-image: url(img/layer-38.png);">
-								<div class="corner-1"></div>
-								<div class="corner-2"></div>
-							</div>
-							
-						</div><!-- /slide5-->						
-					</div><!--  Slider -->
-
-					<div class="controls">
-						<label for="slide1"></label>
-						<label for="slide2"></label>
-						<label for="slide3"></label>
-						<label for="slide4"></label>
-						<label for="slide5"></label>
+					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-33.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
-				</div><!-- /wrap-slider -->
+					
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-31.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
 
-			 <!-- <div class="first-line">
-				<div class="hex hex-gap" style="background-image: url(img/layer-33.png);">
-					<div class="corner-1"></div>
-					<div class="corner-2"></div>
-				</div>
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-34.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
 
-				<div class="hex" style="background-image: url(img/layer-31.png);">
-					<div class="corner-1"></div>
-					<div class="corner-2"></div>
-				</div>
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-35.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>	
 
-				<div class="hex" style="background-image: url(img/layer-34.png);">
-					<div class="corner-1"></div>
-					<div class="corner-2"></div>
-				</div>
+					<div class="b-hex b-hex_margin-0 b-hex_margin-2" style="background-image: url(img/layer-36.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
 
-				<div class="hex" style="background-image: url(img/layer-35.png);">
-					<div class="corner-1"></div>
-					<div class="corner-2"></div>
-				</div>	
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-44.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
 
-				<div class="hex hex-gap-gap" style="background-image: url(img/layer-36.png);">
-					<div class="corner-1"></div>
-					<div class="corner-2"></div>
-				</div>
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-37.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
 
-				<div class="hex" style="background-image: url(img/layer-44.png);">
-					<div class="corner-1"></div>
-					<div class="corner-2"></div>
-				</div>
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-38.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
 
-				<div class="hex" style="background-image: url(img/layer-37.png);">
-					<div class="corner-1"></div>
-					<div class="corner-2"></div>
-				</div>
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+				
+					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-40.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
 
-				<div class="hex" style="background-image: url(img/layer-38.png);">
-					<div class="corner-1"></div>
-					<div class="corner-2"></div>
-				</div>
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
 
-				<div class="hex" style="background-image: url(img/layer-39.png);">
-					<div class="corner-1"></div>
-					<div class="corner-2"></div>
-				</div>
-			
-				<div class="hex hex-gap" style="background-image: url(img/layer-40.png);">
-					<div class="corner-1"></div>
-					<div class="corner-2"></div>
-				</div>
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-43.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
 
-				<div class="hex" style="background-image: url(img/layer-41.png);">
-					<div class="corner-1"></div>
-					<div class="corner-2"></div>
-				</div>
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-42.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+				</div><!-- /slide1-->
 
-				<div class="hex" style="background-image: url(img/layer-43.png);">
-					<div class="corner-1"></div>
-					<div class="corner-2"></div>
-				</div>
+				<div class="b-portfolio_slides b-portfolio_slide2">
+					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-31.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+					
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-31.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
 
-				<div class="hex" style="background-image: url(img/layer-42.png);">
-					<div class="corner-1"></div>
-					<div class="corner-2"></div>
-				</div>
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-31.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-31.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0 b-hex_margin-2" style="background-image: url(img/layer-31.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-31.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-31.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-31.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-31.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+				
+					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-31.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-31.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-31.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-31.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+				</div><!-- /slide2-->
+
+				<div class="b-portfolio_slides b-portfolio_slide3">
+					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-41.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+					
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0 b-hex_margin-2" style="background-image: url(img/layer-41.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+				
+					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-41.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+				</div><!-- /slide3-->
+
+				<div class="b-portfolio_slides b-portfolio_slide4">
+					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+					
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0 b-hex_margin-2" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+				
+					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+					
+				</div><!-- /slide4-->
+
+				<div class="b-portfolio_slides b-portfolio_slide5">
+					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+					
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0 b-hex_margin-2" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+				
+					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+					
+				</div><!-- /slide5-->
+			</div><!--  Slider -->
+
+			<div class="b-portfolio_controls">
+				<label class="b-portfolio_lable b-portfolio_lable_active" for="slide1"></label>
+				<label class="b-portfolio_lable b-portfolio_lable_active" for="slide2"></label>
+				<label class="b-portfolio_lable b-portfolio_lable_active" for="slide3"></label>
+				<label class="b-portfolio_lable b-portfolio_lable_active" for="slide4"></label>
+				<label class="b-portfolio_lable b-portfolio_lable_active" for="slide5"></label>
 			</div>
+			
+		</div><!-- /b-portfolio -->
 
-			<div class="buttons">
-				<button class="button-slide" type="button"></button>
-				<button class="button-slide" type="button"></button>
-				<button class="button-slide" type="button"></button>
-				<button class="button-slide" type="button"></button>
-				<button class="button-slide" type="button"></button>
-				<button class="button-slide" type="button"></button>
-			</div>  buttons -->
+		
 
-		</div> <!-- portfolio  -->
-
-		<div class="portfolio-2">
+		<!-- <div class="b-portfolio-small">
 			<button class="slide-left style-slide" type="button">
 				<i class="fa fa-chevron-left"></i>
 			</button>
@@ -508,23 +442,22 @@
 					<div class="corner-2"></div>
 				</div>
 			</div>
-		</div><!--/portfolio-2 -->
+		</div> --><!--/portfolio-2 -->
 
 
-		<div class="about">
-				 <div class="about-inner wrapper-inner">
-					<div class="hex" style="background-image: url(img/photo.png);">
-						<div class="corner-1"></div>
-						<div class="corner-2"></div>
-					</div>
+		<div class="b-about">
+			<div class="b-about_inner">
+					<div class="b-hex b-about_hex_margin" style="background-image: url(img/photo.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>					
 
-					<div class="about-text">
-						<h2>Smith Anderson</h2>
-						<h3>Illustrator &amp; Character Designer</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
-					</div>
+						<h2 class="b-about_style-h2">Smith Anderson</h2>
+						<h3 class="b-about_style-h3">Illustrator &amp; Character Designer</h3>
+						<p class="b-about_style-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
+					
 
-					<div class="social">
+					<div class="b-about_social">
 						<a href="#" title=""><img src="img/facebook.png" alt="photo"></a>
 						<a href="#" title=""><img src="img/twitter.png" alt="photo"></a>
 						<a href="#" title=""><img src="img/google.png" alt="photo"></a>
@@ -532,51 +465,51 @@
 						<a href="#" title=""><img src="img/linkedin.png" alt="photo"></a>
 						<a href="#" title=""><img src="img/dribbble.png" alt="photo"></a>
 					</div>
-				</div>
-		</div>
+
+			</div><!-- /about_inner -->
+
+		</div><!-- /about-->
 
 
-		<div class="get-in-touch">
-			<div class="get-inner wrapper-inner">
-				<h2>Get In Touch</h2>
-				<h3>In order to get in touch use the contact form below:</h3>
-			<div class="form">
+		<div class="b-git">
+			<div class="b-git_inner">
+				<h2 class="b-git_style-h2">Get In Touch</h2>
+				<h3 class="b-git_style-h3">In order to get in touch use the contact form below:</h3>
+			<div class="b-git_form">
 				<form action="#" method="get" accept-charset="utf-8">
-					<input type="text" name="name" value="" placeholder="Name(Reuired)" required>
+					<input class="b-git_input-style" type="text" name="name" value="" placeholder="Name(Reuired)" required>
 
-					<input type="email" name="email" value="" placeholder="Email(Required)" required>
+					<input class="b-git_input-style" type="email" name="email" value="" placeholder="Email(Required)" required>
 
-					<input type="text" name="subject" value="" placeholder="Subject">
+					<input class="b-git_input-style" type="text" name="subject" value="" placeholder="Subject">
 
-					<textarea name="question">Write your message here...</textarea>
+					<textarea class="b-git_input-style b-git_textarea" name="question">Write your message here...</textarea>
 
-					<button type="submit" value="">SEND</button>
+					<button class="b-git_input-style b-git_button" type="submit" value="">SEND</button>
 				</form>
 			</div>
 
 			<aside>
-				<div class="widget widget-none">
-				<p><span>Quisque Hendrerit:</span> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae.</p>
+				<div class="l-git_widget b-git_hidden-none">
+				<p class="b-git_style-p"><span class="b-git_span-strong">Quisque Hendrerit:</span> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae.</p>
 				</div>
 
-				<div class="widget">
-					<div class="awesom-contact">
-						<i class="fa fa-map-marker"></i><br>
-						<i class="fa fa-phone"></i><br>
-						<i class="fa fa-envelope"></i><br>
+				<div class="l-git_widget">
+					<div class="b-git_awesom-contact">
+						<i class="fa fa-map-marker b-git_i_color"></i><br>
+						<i class="fa fa-phone b-git_i_color b-git_i_scalex"></i><br>
+						<i class="fa fa-envelope b-git_i_color"></i><br>
 					</div>
-					<p>Elm St. 14/05 Lost City<br> 
+					<p class="b-git_style-p">Elm St. 14/05 Lost City<br> 
 	     			+ 3528 331 86 35<br> 
-	      			<a class="mail" href="mailto:test@mail.ru" "email me">info@hexalcorp.com</a></p>
+	      			<a class="b-git_mail" href="mailto:test@mail.ru" "email me">info@hexalcorp.com</a></p>
 				</div>
 			</aside>
-			</div>
-		</div>
+			</div><!-- /git_inner -->
+		</div><!-- /git -->
 
-		<footer class="footer">
-			<div class="copyright">
-				<p>&copy; Copyright 2013 by PSDchat</p>
-			</div>
+		<footer class="b-footer">			
+				<p class="b-footer_style-p">&copy; Copyright 2013 by PSDchat</p>			
 		</footer><!-- /footer -->
 
 	</div>
