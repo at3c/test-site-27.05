@@ -18,7 +18,7 @@ body{
 	width:100%;
 	background-color: #323232;
 	color: white;
-	font-size: 10px;
+	font-size: 13px;
 	position: relative;
 	margin-bottom: 26px;
 }
@@ -64,11 +64,12 @@ body{
 }
 
 .b-nav_menu{
-    	visibility: hidden;
-    	height: 0;
-    }
+    visibility: hidden;
+    height: 0;
+}
 
 /*Portfolio*/
+
 .b-portfolio{
 	width: 100%;
 	height: 700px;
@@ -77,9 +78,10 @@ body{
 	background-color: #FFFFFF;
 }
 
-.b-portfolio-small{display: none;}
+.b-prtf-small{display: none;}
 
-/* Slider CSS3 */
+/*Portfolio Slider CSS3 */
+
 .b-portfolio_slider {
 	top: 50px;
 	height: 600px;
@@ -95,7 +97,7 @@ body{
 	position: absolute;
 	width: inherit;
 	z-index: 0;
-	right: 100%;	
+	right: 100%;
 	transition: right ease-in-out .8s, opacity ease-in-out .5s;
 }
 
@@ -148,8 +150,8 @@ body{
 	right: 0;
 }
 
-
 /* About*/
+
 .b-about{
 	position: relative;
 	background-color: #2EB398;
@@ -171,24 +173,24 @@ body{
 	margin: 35px 30px 35px 10px;
 }
 
-.b-about_style-h2{
+.b-about_h2{
 	margin:0;
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: 300;
-	line-height: 24px;
-
+	line-height: 40px;
 }
 
-.b-about_style-h3{
+.b-about_h3{
 	margin: 0 0 10px 0;
-	font-size: 18px;
+	font-size: 24px;
 	line-height: 35px;
 	font-weight: 300;
 	color: #20816D;
 }
 
-.b-about_style-p{
+.b-about_p{
 	margin:0;
+	font-size: 13px;
 	line-height: 20px;
 	text-align: justify;
 }
@@ -197,11 +199,12 @@ body{
 	position: absolute;
 	font-size: 0px;
 	right: 0;
-	bottom: -50%;
+	bottom: -50px;
 }
 
 
 /*GET IN TOUCH*/
+
 .b-git{
 	height: 564px;
 	position: relative;
@@ -210,7 +213,7 @@ body{
 
 .b-git_inner{
 	position: relative;
-	top:15%;
+	top: 67px;
 	bottom: 0;
 	left:0;
 	right: 0;
@@ -219,23 +222,24 @@ body{
 	color: #A9A9A9;
 }
 
-.b-git_style-h2{
+.b-git_h2{
 	margin:0;
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: 300;
-	line-height: 24px;
+	line-height: 40px;
 	color: #FFFFFF;
 }
 
-.b-git_style-h3{
+.b-git_h3{
 	margin: 0 0 10px 0;
-	font-size: 18px;
+	font-size: 24px;
 	line-height: 35px;
 	font-weight: 300;
 }
 
-.b-git_style-p{
-	margin:0;
+.b-git_p{
+	margin: 0;
+	font-size: 13px;
 	line-height: 20px;
 	text-align: justify;
 }
@@ -246,7 +250,7 @@ body{
 	margin-bottom: 20px;
 }
 
-.b-git_input-style{
+.b-git_input{
 	display: block;
 	border: none;
 	width: 580px;
@@ -254,8 +258,8 @@ body{
 	background-color: #454545;
 	margin-bottom: 15px;
 	color: #A9A9A9;
-	font-size: 12px;
-	padding-left:13px;
+	font-size: 16px;
+	padding-left: 13px;
 	font-family: Tahoma, Geneva, sans-serif;
 	outline: none;
 }
@@ -271,14 +275,14 @@ body{
 .b-git_textarea{
 	height: 135px;
 	padding-top: 13px;
-	resize: none;
+	resize: none;	
 }
 
 .l-git_widget{
-	margin-bottom: 60px;
+	margin-bottom: 40px;
 }
 
-.b-git_span-strong{
+.b-git_span_strong{
  	font-weight: 700;
  	color: #FFFFFF;
 }
@@ -289,7 +293,7 @@ body{
 	float: left;
 	line-height: 20px;
 	text-align: center;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 .b-git_i_color{
@@ -301,13 +305,13 @@ body{
 }
 
 .b-git_mail{
-		text-decoration: none;
-		color: #A9A9A9;
-	}
+	text-decoration: none;
+	color: #A9A9A9;
+}
 
 .b-git_mail:hover{
-		color: #2EB398;
-	}
+	color: #2EB398;
+}
 
 /*Footer*/
 
@@ -317,38 +321,17 @@ body{
 	color: #3C3C3C;
 }
 
-.b-footer_style-p{
+.b-footer_p{
 	text-align: justify;
 	margin: 0 0 0 38px;
 	line-height: 42px;
+	font-size: 16px;
 }
 
 /*Style for iphone5,6*/
 @media all and (max-width: 780px) {
-	.wrapper {
+	.b-wrapper {
 		width: 750px;
-	}
-
-	h2{	
-	font-size: 40px;
-	line-height: 35px;
-	}
-
-	h3{
-	font-size: 22px;
-	line-height: 40px;
-	
-	}
-
-	p{
-	font-size: 16px;
-	line-height: 25px;
-	text-align: justify;
-	}
-
-	.wrapper-inner{
-		width: 700px;
-		top: 25px;
 	}
 
 	/* Navigation */
@@ -390,7 +373,7 @@ body{
 		transition: 0.5s;
 	}
 
-	.fa.fa-bars:active{
+	.b-nav_button:active > .b-nav_bars{
 		color: #FFFFFF;
 	}
 
@@ -399,7 +382,7 @@ body{
 		display: none;
 	}
 
-	.b-portfolio-small{
+	.b-prtf-small{
 		display: block;
 		position: relative;
 		width: 100%;
@@ -408,21 +391,22 @@ body{
 		top: 0;	
 		background-color: #FFFFFF;
 	}
-	
 
-	.hex.hex-gap-first {
-		margin-left: 185px;
+	.b-hex_margin-1 {
+	margin-left: 185px;
 	}
 
-	.hex.hex-gap-second {
+	.b-hex_margin-2 {
 		margin-left: 80px;
-	}
+	}	
 
-	.first-line{
+	.b-prtf-small_inner{
+		position: relative;
+		margin: auto;
 		top:30px;
 	}
 
-	.style-slide{
+	.b-prtf-small_slide{
 		position: absolute;
 		height: 600px;
 		width: 25px;
@@ -434,56 +418,107 @@ body{
 		background-color: transparent;
 	}
 
-	.slide-right{
+	.b-prtf-small_slide_position_right{
 		right: 0px;
 	}
 
-	.style-slide:hover{
+	.b-prtf-small_slide:hover{
 		opacity: .6;
 		transition: 0.5s;
 	}
 
-	.style-slide:active{
-	color: #585858;
+	.b-prtf-small_slide:active{
+		color: #585858;
 	}
 
 	/* About*/
+
+	.b-about_inner{
+		top: 20px;
+		width: 700px;
+	}
 		
-	.social {
+	.b-about_social {
 		position: absolute;
 		font-size: 10px;
 		right: 25px;
-		bottom: -30px;
+		bottom: -40px;
 		transform: scale(1.3, 1.3);
 	}
 
-	.about-inner .hex{
+	.b-about_hex_margin{
 		margin: 70px 20px;
+	}
+
+	.b-about_style-h2{
+		margin:0;
+		font-size: 40px;
+		line-height: 35px;
+		font-weight: 300;
+		color: #FFFFFF;
+	}
+
+	.b-about_style-h3{
+		margin: 0 0 10px 0;
+		font-size: 22px;
+		line-height: 40px;
+		font-weight: 300;
+	}
+
+	.b-about_style-p{
+		font-size: 16px;
+		line-height: 25px;
 	}
 
 	/*Get in touch*/
 
-	.get-in-touch{
+	.b-git{
 		height: 550px;
 	}
 
-	.get-inner.wrapper-inner{
+	.b-git_inner{
+		top:20px;
 		width: 600px;
 	}
 
-	.widget-none{
+	.b-git_form{
+		float:none;
+		margin-bottom: 10px;
+	}
+
+	.b-git_hidden-none{
 		display: none;
 	}
-
-	.form{
-		float:none;
+	.b-git_input{
+		font-size: 16px;
 	}
 
-	.widget{
-		margin-bottom: 0px;
+	.b-git_textarea{
+		font-size: 16px;
+		height: 100px;
 	}
 
-	.awesom-contact{
+	.b-git_h2{
+		margin:0;
+		font-size: 40px;
+		line-height: 35px;
+		font-weight: 300;
+		color: #FFFFFF;
+	}
+
+	.b-git_h3{
+		margin: 0 0 10px 0;
+		font-size: 22px;
+		line-height: 40px;
+		font-weight: 300;
+	}
+
+	.b-git_p{
+		font-size: 16px;
+		line-height: 25px;
+	}
+
+	.b-git_awesom-contact{
 		width: 15px;
 		margin-right: 10px;
 		float: left;
@@ -492,55 +527,18 @@ body{
 		font-size: 15px;
 	}
 
-	.form input, .form button,
-	.form form textarea{
+	.l-git_widget{
+		margin-bottom: 0px;
+	}	
+
+	.b-git_button:hover, .b-git_mail:hover{
+		opacity: .6;
+		transition: 0.5s;
+	}
+
+	/* Footer */
+	.b-footer_p{
 		font-size: 16px;
 	}
 
-	.form form textarea{
-		height: 100px;
-	}
-
-	.form button:hover, .mail:hover{
-		opacity: .6;
-		transition: 0.5s;
-	}	
-
-}/* /Media */
-
-
-/*.b-portfolio {
-	width: 100%;
-	height: 700px;
-	background-color: #FFFFFF;
-	position: relative;
-	top: 50px;
-	margin: 0px;
-}*/
-
-
-/*.first-line{
-	position: relative;
-    top: 70px;
-}*/
-
-/*.buttons{
-	position: absolute;
-	bottom:10px;
-	left: 30px;
-}
-*/
-
-/*.button-slide{
-	display: inline;
-	outline: none;
-	border:none;
-	padding:0;
-	width: 5px;
-	height: 5px;
-	background-color: #DDD2C5;
-}*/
-
-/*.button-slide:hover{
-	background-color: #8B8784;
-}*/
+}/* /media */
