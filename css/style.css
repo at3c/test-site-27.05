@@ -41,7 +41,7 @@ body{
 
 .b-nav_elem{
 	line-height: 62px;
-	color: white;	
+	color: white;
 }
 
 .b-nav_link{
@@ -61,6 +61,7 @@ body{
 	top: 100%;
 	left: 50%;
 	transform: translateX(-50%);
+	z-index: 1;
 }
 
 .b-nav_menu{
@@ -79,6 +80,39 @@ body{
 }
 
 .b-prtf-small{display: none;}
+
+.b-portfolio_border-top{
+	position: absolute;
+	width: 980px;
+	height: 1px;
+	top: -15px;
+	border-top: 1px solid #E4E9EB;
+	left:50%;
+	transform: translateX(-50%);
+}
+
+.b-portfolio_border-bottom{
+	position: absolute;
+	width: 980px;
+	height: 1px;	
+	bottom: 10px;
+	border-bottom: 1px solid #E4E9EB;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.b-portfolio_border-inner{
+	position: absolute;
+	width: 821px;
+	height: 452px;
+	margin: 0;
+	border-left: 1px solid #E4E9EB;
+	border-right: 1px solid #E4E9EB;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -54%);
+
+}
 
 /*Portfolio Slider CSS3 */
 
@@ -158,6 +192,18 @@ body{
 	height: 340px;
 }
 
+.b-about_border{
+	position: relative;
+	width: 821px;
+	height: 319px;
+	margin: 0;
+	border-left: 1px solid #219D84;
+	border-right: 1px solid #219D84;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 .b-about_inner{
 	position: relative;
 	top:50%;
@@ -180,7 +226,7 @@ body{
 
 .b-about_h3{
 	margin: 0;
-	font-size: 18px;	
+	font-size: 18px;
 	font-weight: 300;
 	color: #20816D;
 	margin-bottom: 15px;
@@ -188,7 +234,7 @@ body{
 }
 
 .b-about_p{
-	margin:0;
+	margin:0 20px 0 0;
 	font-size: 12px;
 	line-height: 20px;
 	text-align: justify;
@@ -199,7 +245,7 @@ body{
 	position: relative;
 	font-size: 0px;
 	left: 100%;
-	transform: translateX(-50%);
+	transform: translateX(-380px);
 	bottom: -10px;
 }
 
@@ -212,6 +258,18 @@ body{
 	background-color: #323232;
 }
 
+.b-git_border{
+	position: relative;
+	width: 980px;
+	height: 540px;
+	margin: 0;
+	border-top: 1px solid #2B2B2B;
+	border-bottom: 1px solid #2B2B2B;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 .b-git_inner{
 	position: relative;
 	top:50%;
@@ -219,6 +277,7 @@ body{
 	transform: translate(-50%, -75%);
 	width: 820px;
 	color: #A9A9A9;
+	
 }
 
 .b-git_h2{
@@ -277,7 +336,7 @@ body{
 .b-git_textarea{
 	height: 135px;
 	padding-top: 13px;
-	resize: none;	
+	resize: none;
 }
 
 .l-git_widget{
@@ -437,29 +496,33 @@ body{
 
 	.b-about_inner{
 		width: 700px;
-	}	
-		
-	.b-about_social {		
-		font-size: 10px;		
-		bottom: -10px;
+	}
+
+	.b-about_border{
+		border: none;
+	}
+
+	.b-about_social {
+		font-size: 10px;
+		bottom: 0px;
 		transform: scale(1.3, 1.3);
-		transform: translateX(-165px);
+		transform: translateX(-185px);
 	}
 
 	.b-about_hex_margin{
-		margin: 70px 20px;
+		margin: 80px 20px;
 	}
 
 	.b-about_h2{
 		margin:0;
-		font-size: 40px;		
+		font-size: 40px;
 		font-weight: 300;
 		color: #FFFFFF;
 	}
 
 	.b-about_h3{
 		margin: 0 0 10px 0;
-		font-size: 22px;		
+		font-size: 22px;
 		font-weight: 300;
 	}
 
@@ -474,7 +537,11 @@ body{
 		height: 550px;
 	}
 
-	.b-git_inner{		
+	.b-git_border{
+		border: none;
+	}
+
+	.b-git_inner{
 		width: 600px;
 		transform: translate(-50%, -50%);
 	}
@@ -498,14 +565,14 @@ body{
 
 	.b-git_h2{
 		margin:0;
-		font-size: 40px;		
+		font-size: 40px;
 		font-weight: 300;
 		color: #FFFFFF;
 	}
 
 	.b-git_h3{
 		margin: 0 0 10px 0;
-		font-size: 22px;		
+		font-size: 22px;
 		font-weight: 300;
 	}
 
