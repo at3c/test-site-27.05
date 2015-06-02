@@ -18,7 +18,7 @@ body{
 	width:100%;
 	background-color: #323232;
 	color: white;
-	font-size: 13px;
+	font-size: 10px;
 	position: relative;
 	margin-bottom: 26px;
 }
@@ -160,46 +160,47 @@ body{
 
 .b-about_inner{
 	position: relative;
-	top:15%;
-	bottom: 0;
-	left:0;
-	right: 0;
-	margin: 0 auto;
+	top:50%;
+	left: 50%;
 	width: 820px;
-	color: white;
+	transform: translate(-50%, -50%);
+	color: #FFF;
 }
 
 .b-about_hex_margin{
-	margin: 35px 30px 35px 10px;
+	margin: 40px 15px;
 }
 
 .b-about_h2{
 	margin:0;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: 300;
-	line-height: 40px;
+	letter-spacing: 2px;
 }
 
 .b-about_h3{
-	margin: 0 0 10px 0;
-	font-size: 24px;
-	line-height: 35px;
+	margin: 0;
+	font-size: 18px;	
 	font-weight: 300;
 	color: #20816D;
+	margin-bottom: 15px;
+	letter-spacing: 1px;
 }
 
 .b-about_p{
 	margin:0;
-	font-size: 13px;
+	font-size: 12px;
 	line-height: 20px;
 	text-align: justify;
+	letter-spacing: 0.5px;
 }
 
 .b-about_social {
-	position: absolute;
+	position: relative;
 	font-size: 0px;
-	right: 0;
-	bottom: -50px;
+	left: 100%;
+	transform: translateX(-50%);
+	bottom: -10px;
 }
 
 
@@ -213,35 +214,35 @@ body{
 
 .b-git_inner{
 	position: relative;
-	top: 67px;
-	bottom: 0;
-	left:0;
-	right: 0;
-	margin: auto;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -75%);
 	width: 820px;
 	color: #A9A9A9;
 }
 
 .b-git_h2{
 	margin:0;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: 300;
-	line-height: 40px;
 	color: #FFFFFF;
+	letter-spacing: 2px;
 }
 
 .b-git_h3{
-	margin: 0 0 10px 0;
-	font-size: 24px;
-	line-height: 35px;
+	margin: 0;
+	font-size: 18px;
 	font-weight: 300;
+	margin-bottom: 15px;
+	letter-spacing: 1px;
 }
 
 .b-git_p{
 	margin: 0;
-	font-size: 13px;
+	font-size: 12px;
 	line-height: 20px;
 	text-align: justify;
+	letter-spacing: 0.5px;
 }
 
 .b-git_form{
@@ -258,7 +259,7 @@ body{
 	background-color: #454545;
 	margin-bottom: 15px;
 	color: #A9A9A9;
-	font-size: 16px;
+	font-size: 12px;
 	padding-left: 13px;
 	font-family: Tahoma, Geneva, sans-serif;
 	outline: none;
@@ -269,7 +270,8 @@ body{
 	width: 90px;
 	margin-left: 505px;
 	background-color: #2EB398;
-	padding-right: 13px;
+	padding-right: 12px;
+	text-transform: uppercase;
 }
 
 .b-git_textarea{
@@ -293,7 +295,7 @@ body{
 	float: left;
 	line-height: 20px;
 	text-align: center;
-	font-size: 13px;
+	font-size: 16px;
 }
 
 .b-git_i_color{
@@ -325,7 +327,7 @@ body{
 	text-align: justify;
 	margin: 0 0 0 38px;
 	line-height: 42px;
-	font-size: 16px;
+	font-size: 12px;
 }
 
 /*Style for iphone5,6*/
@@ -434,38 +436,34 @@ body{
 	/* About*/
 
 	.b-about_inner{
-		top: 20px;
 		width: 700px;
-	}
+	}	
 		
-	.b-about_social {
-		position: absolute;
-		font-size: 10px;
-		right: 25px;
-		bottom: -40px;
+	.b-about_social {		
+		font-size: 10px;		
+		bottom: -10px;
 		transform: scale(1.3, 1.3);
+		transform: translateX(-165px);
 	}
 
 	.b-about_hex_margin{
 		margin: 70px 20px;
 	}
 
-	.b-about_style-h2{
+	.b-about_h2{
 		margin:0;
-		font-size: 40px;
-		line-height: 35px;
+		font-size: 40px;		
 		font-weight: 300;
 		color: #FFFFFF;
 	}
 
-	.b-about_style-h3{
+	.b-about_h3{
 		margin: 0 0 10px 0;
-		font-size: 22px;
-		line-height: 40px;
+		font-size: 22px;		
 		font-weight: 300;
 	}
 
-	.b-about_style-p{
+	.b-about_p{
 		font-size: 16px;
 		line-height: 25px;
 	}
@@ -476,9 +474,9 @@ body{
 		height: 550px;
 	}
 
-	.b-git_inner{
-		top:20px;
+	.b-git_inner{		
 		width: 600px;
+		transform: translate(-50%, -50%);
 	}
 
 	.b-git_form{
@@ -500,16 +498,14 @@ body{
 
 	.b-git_h2{
 		margin:0;
-		font-size: 40px;
-		line-height: 35px;
+		font-size: 40px;		
 		font-weight: 300;
 		color: #FFFFFF;
 	}
 
 	.b-git_h3{
 		margin: 0 0 10px 0;
-		font-size: 22px;
-		line-height: 40px;
+		font-size: 22px;		
 		font-weight: 300;
 	}
 
