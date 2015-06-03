@@ -81,37 +81,32 @@ body{
 
 .b-prtf-small{display: none;}
 
-.b-portfolio_border-top{
+.b-portfolio_border{
 	position: absolute;
 	width: 980px;
-	height: 1px;
-	top: -15px;
+	height: 1px;	
 	border-top: 1px solid #E4E9EB;
 	left:50%;
 	transform: translateX(-50%);
 }
 
+.b-portfolio_border-top{
+	top: -15px;
+}
+
 .b-portfolio_border-bottom{
-	position: absolute;
-	width: 980px;
-	height: 1px;	
 	bottom: 10px;
-	border-bottom: 1px solid #E4E9EB;
-	left: 50%;
-	transform: translateX(-50%);
 }
 
 .b-portfolio_border-inner{
 	position: absolute;
 	width: 821px;
 	height: 452px;
-	margin: 0;
 	border-left: 1px solid #E4E9EB;
 	border-right: 1px solid #E4E9EB;
 	top:50%;
 	left: 50%;
 	transform: translate(-50%, -54%);
-
 }
 
 /*Portfolio Slider CSS3 */
@@ -119,17 +114,17 @@ body{
 .b-portfolio_slider {
 	top: 50px;
 	height: 600px;
-	overflow: hidden;
-	position: relative;
 	width: inherit;
+	overflow: hidden;
+	position: relative;	
 }
 
 .b-portfolio_slides {
 	margin-top: 20px;
-	height: inherit;
 	opacity: 0;
 	position: absolute;
 	width: inherit;
+	height: inherit;
 	z-index: 0;
 	right: 100%;
 	transition: right ease-in-out .8s, opacity ease-in-out .5s;
