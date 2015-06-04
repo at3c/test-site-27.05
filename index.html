@@ -2,49 +2,51 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title> Test </title>	
+	<title> Test </title>
+	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/hexagon.css">	
+	<link rel="stylesheet" href="css/hexagon.css">
 </head>
 <body>
-	<div class="b-wrapper">
-		<nav class="b-nav">
+
+	<div class="b-nav">
+
+		<div class="b-wrapper b-nav_wrapper_background container">
+
+			<div class="b-nav_wrap_left b-nav_line">
+
+				<ul class="b-list b-list_left">
+					<li class="b-list_item"><a class="b-list_text b-list_link" href="#">portfolio</a></li>
+					<li class="b-list_item"><span class="b-list_text">&middot;</span></li>
+					<li class="b-list_item"><a class="b-list_text b-list_link" href="#">about</a></li>
+				</ul>
+
+			</div>
+
+			<div class="b-nav_wrap_right">
+
+				<ul class="b-list">
+					<li class="b-list_item"><a class="b-list_text b-list_link" href="#">blog</a></li>
+					<li class="b-list_item"><span class="b-list_text">&middot;</span></li>
+					<li class="b-list_item"><a class="b-list_text b-list_link" href="#">get in touch</a></li>
+				</ul>
+
+			</div>
+
 			<div class="b-nav_arrow-position"><img src="img/logo_2.png" alt="logo_2"></div>
 
 			<div class="b-nav_menu">
-			<button type="button" class="b-nav_button"><i class="fa fa-bars b-nav_bars"></i></button>
+				<button type="button" class="b-nav_button"><i class="fa fa-bars b-nav_bars"></i></button>
 			</div>
 
-			<ul class="b-nav_list">
-				<li class="b-nav_item">
-				<a class="b-nav_elem b-nav_link b-nav_link_active" href="#">portfolio</a>
-				</li>
-				<li class="b-nav_item dot"><span class="b-nav_elem">&middot;</span>
-				</li>
-				<li class="b-nav_item space-logo">
-				<a class="b-nav_elem b-nav_link b-nav_link_active b-nav_elem_margin" href="#">about</a>
-				</li>
-				<li class="b-nav_item">
-				<a class="b-nav_elem b-nav_link b-nav_link_active" href="#">blog</a>
-				</li>
-				<li class="b-nav_item dot"><span class="b-nav_elem">&middot;</span>
-				</li>
-				<li class="b-nav_item">
-				<a class="b-nav_elem b-nav_link b-nav_link_active" href="#">get in touch</a>
-				</li>
-			</ul>
-		</nav><!-- /nav -->
-		
-		<div class="b-portfolio">
+		</div> 
 
-			<div class="b-portfolio_border b-portfolio_border-top">
-			</div>
-			<div class="b-portfolio_border b-portfolio_border-bottom">
-			</div>
-			<div class="b-portfolio_border-inner">
-			</div>
+	</div> 
 
+	<div class="b-portfolio">
+
+		<div class="b-wrapper b-portfolio_wrapper_padding">		
 			<input class="b-portfolio_input b-portfolio_input_active1" type="radio" name="point" id="slide1" checked>
 			<input class="b-portfolio_input b-portfolio_input_active2" type="radio" name="point" id="slide2">
 			<input class="b-portfolio_input b-portfolio_input_active3" type="radio" name="point" id="slide3">
@@ -52,6 +54,7 @@
 			<input class="b-portfolio_input b-portfolio_input_active5" type="radio" name="point" id="slide5">
 
 			<div class="b-portfolio_slider">
+
 				<div class="b-portfolio_slides b-portfolio_slide1">
 
 					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-33.png);">
@@ -94,7 +97,7 @@
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0 b-hex_margin-3" style="background-image: url(img/layer-39.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
@@ -118,9 +121,78 @@
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
-				</div><!-- /slide1-->
+				</div>
 
 				<div class="b-portfolio_slides b-portfolio_slide2">
+
+					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-33.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+					
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-33.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-33.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-33.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>	
+
+					<div class="b-hex b-hex_margin-0 b-hex_margin-2" style="background-image: url(img/layer-33.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-33.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-33.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-33.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0 b-hex_margin-3" style="background-image: url(img/layer-33.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+				
+					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-33.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-33.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-33.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-33.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>
+				</div>
+
+				<div class="b-portfolio_slides b-portfolio_slide3">
+
 					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-31.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
@@ -139,7 +211,7 @@
 					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-31.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
-					</div>
+					</div>	
 
 					<div class="b-hex b-hex_margin-0 b-hex_margin-2" style="background-image: url(img/layer-31.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
@@ -161,7 +233,7 @@
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-31.png);">
+					<div class="b-hex b-hex_margin-0 b-hex_margin-3" style="background-image: url(img/layer-31.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
@@ -185,211 +257,145 @@
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
-				</div><!-- /slide2-->
-
-				<div class="b-portfolio_slides b-portfolio_slide3">
-					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-41.png);">
-						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
-						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
-					</div>
-					
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
-						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
-						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
-					</div>
-
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
-						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
-						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
-					</div>
-
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
-						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
-						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
-					</div>
-
-					<div class="b-hex b-hex_margin-0 b-hex_margin-2" style="background-image: url(img/layer-41.png);">
-						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
-						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
-					</div>
-
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
-						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
-						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
-					</div>
-
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
-						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
-						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
-					</div>
-
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
-						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
-						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
-					</div>
-
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
-						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
-						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
-					</div>
-				
-					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-41.png);">
-						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
-						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
-					</div>
-
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
-						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
-						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
-					</div>
-
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
-						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
-						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
-					</div>
-
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
-						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
-						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
-					</div>
-				</div><!-- /slide3-->
+				</div>
 
 				<div class="b-portfolio_slides b-portfolio_slide4">
-					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-39.png);">
+
+					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-33.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 					
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-31.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-34.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-35.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>	
+
+					<div class="b-hex b-hex_margin-0 b-hex_margin-2" style="background-image: url(img/layer-36.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0 b-hex_margin-2" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-44.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-37.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-38.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
-						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
-						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
-					</div>
-
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0 b-hex_margin-3" style="background-image: url(img/layer-39.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 				
-					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-40.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-41.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-43.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-42.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
-					
-				</div><!-- /slide4-->
+				</div>
 
 				<div class="b-portfolio_slides b-portfolio_slide5">
-					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-39.png);">
+
+					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-35.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 					
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-35.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-35.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-35.png);">
+						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+					</div>	
+
+					<div class="b-hex b-hex_margin-0 b-hex_margin-2" style="background-image: url(img/layer-35.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0 b-hex_margin-2" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-35.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-35.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-35.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
-						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
-						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
-					</div>
-
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0 b-hex_margin-3" style="background-image: url(img/layer-35.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 				
-					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0 b-hex_margin-1" style="background-image: url(img/layer-35.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-35.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-35.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
 
-					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-39.png);">
+					<div class="b-hex b-hex_margin-0" style="background-image: url(img/layer-35.png);">
 						<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 					</div>
-					
-				</div><!-- /slide5-->
-			</div><!--  Slider -->
+				</div>
+				
+			</div>
 
 			<div class="b-portfolio_controls">
 				<label class="b-portfolio_lable b-portfolio_lable_active" for="slide1"></label>
@@ -398,10 +404,105 @@
 				<label class="b-portfolio_lable b-portfolio_lable_active" for="slide4"></label>
 				<label class="b-portfolio_lable b-portfolio_lable_active" for="slide5"></label>
 			</div>
-			
-		</div><!-- /b-portfolio -->
 
-		<div class="b-prtf-small">
+		</div>
+		
+	</div>
+
+	<div class="b-about">
+		<div class="b-wrapper b-about_wrapper_padding">
+			<div class="b-about_inner container">
+				<div class="b-hex b-about_hex_margin" style="background-image: url(img/photo.png);">
+					<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
+					<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
+				</div>
+
+				<div class="b-about_aside">
+					<h2 class="b-page_h2">Smith Anderson</h2>
+					<h3 class="b-page_h3 b-about_h3_color">Illustrator &amp; Character Designer</h3>
+					<p class="b-page_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
+				</div> 
+
+				<div class="b-about_social">
+					<a class="b-about_link" href="#" title=""><img src="img/facebook.png" alt="photo"></a>
+					<a class="b-about_link" href="#" title=""><img src="img/twitter.png" alt="photo"></a>
+					<a class="b-about_link" href="#" title=""><img src="img/google.png" alt="photo"></a>
+					<a class="b-about_link" href="#" title=""><img src="img/pinterest.png" alt="photo"></a>
+					<a class="b-about_link" href="#" title=""><img src="img/linkedin.png" alt="photo"></a>
+					<a  class="b-about_link" href="#" title=""><img src="img/dribbble.png" alt="photo"></a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="b-get">
+
+		<div class="b-wrapper">
+			
+			<div class="b-get_inner container">
+
+				<h2 class="b-page_h2">Get In Touch</h2>
+				<h3 class="b-page_h3">In order to get in touch use the contact form below:</h3>
+
+				<div class="b-get_form">
+					<form action="#" method="get" accept-charset="utf-8">
+						<input class="b-get_input" type="text" name="name" value="" placeholder="Name(Reuired)" required>
+
+						<input class="b-get_input" type="email" name="email" value="" placeholder="Email(Required)" required>
+
+						<input class="b-get_input" type="text" name="subject" value="" placeholder="Subject">
+
+						<textarea class="b-get_input b-get_textarea" name="question" placeholder="Write your message here..."></textarea>
+
+						<button class="b-get_button" type="submit" value="">send</button>
+					</form>
+				</div>
+
+				<aside class="b-get_aside">
+
+					<p class="b-page_p b-get_p_margin"><span class="b-get_span_strong">Quisque Hendrerit:</span> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae.</p>
+
+					<ul class="b-get_contact_icon">
+						<li class="b-get_item">
+							<p class="b-page_p b-get_p_align">
+								<i class="fa fa-map-marker b-get_i_color"></i>
+							</p>
+						</li>
+						<li class="b-get_item">
+							<p class="b-page_p b-get_p_align">
+								<i class="fa fa-phone b-get_i_color b-get_i_scalex"></i>
+							</p>
+						</li class="b-get_item">
+						<li>
+							<p class="b-page_p b-get_p_align">
+								<i class="fa fa-envelope b-get_i_color"></i>
+							</p>
+						</li>
+					</ul>
+
+					<ul class="b-get_contact_data">
+						<li>
+							<p class="b-page_p">
+								Elm St. 14/05 Lost City</p>
+						</li>
+						<li>
+							<p class="b-page_p">
+								+ 3528 331 86 35</p>
+						</li>
+						<li>
+							<p class="b-page_p">
+								<a class="b-get_mail"href="mailto:test@mail.ru">info@hexalcorp.com</a></p>		
+						</li>
+					</ul>
+
+				</aside>
+			</div>
+		</div>
+
+	</div>
+
+	<!--<div class="b-prtf-small">
 
 			<button class="b-prtf-small_slide" type="button">
 				<i class="fa fa-chevron-left"></i>
@@ -440,80 +541,17 @@
 						<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
 				</div>
 			</div>
-		</div> <!--/portfolio-small -->
+		</div>-->	
 
+	<footer class="b-footer">
+		<div class="b-wrapper">
+			<div class="b-footer_inner">
+				<p class="b-page_p">&copy; Copyright 2013 by PSDchat</p>
+			</div>
+		</div>
+	</footer>
 
-		<div class="b-about">
-			<div class="b-about_border">
-				<div class="b-about_inner">
-						<div class="b-hex b-about_hex_margin" style="background-image: url(img/photo.png);">
-							<div class="b-hex_corner b-hex_corner_rotate-plus"></div>
-							<div class="b-hex_corner b-hex_corner_rotate-minus"></div>
-						</div>
-
-							<h2 class="b-about_h2">Smith Anderson</h2>
-							<h3 class="b-about_h3">Illustrator &amp; Character Designer</h3>
-							<p class="b-about_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
-						
-
-						<div class="b-about_social">
-							<a href="#" title=""><img src="img/facebook.png" alt="photo"></a>
-							<a href="#" title=""><img src="img/twitter.png" alt="photo"></a>
-							<a href="#" title=""><img src="img/google.png" alt="photo"></a>
-							<a href="#" title=""><img src="img/pinterest.png" alt="photo"></a>
-							<a href="#" title=""><img src="img/linkedin.png" alt="photo"></a>
-							<a href="#" title=""><img src="img/dribbble.png" alt="photo"></a>
-						</div>
-
-				</div><!-- /about_inner -->
-			</div> <!-- /b-about_border -->
-		</div><!-- /about-->
-
-		<div class="b-git">
-			<div class="b-git_border">
-				<div class="b-git_inner">
-					<h2 class="b-git_h2">Get In Touch</h2>
-					<h3 class="b-git_h3">In order to get in touch use the contact form below:</h3>
-					<div class="b-git_form">
-						<form action="#" method="get" accept-charset="utf-8">
-							<input class="b-git_input" type="text" name="name" value="" placeholder="Name(Reuired)" required>
-
-							<input class="b-git_input" type="email" name="email" value="" placeholder="Email(Required)" required>
-
-							<input class="b-git_input" type="text" name="subject" value="" placeholder="Subject">
-
-							<textarea class="b-git_input b-git_textarea" name="question">Write your message here...</textarea>
-
-							<button class="b-git_input b-git_button" type="submit" value="">send</button>
-						</form>
-					</div>
-
-					<aside>
-						<div class="l-git_widget b-git_hidden-none">
-						<p class="b-git_p"><span class="b-git_span_strong">Quisque Hendrerit:</span> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae.</p>
-						</div>
-
-						<div>
-							<div class="b-git_awesom-contact">
-								<i class="fa fa-map-marker b-git_i_color"></i><br>
-								<i class="fa fa-phone b-git_i_color b-git_i_scalex"></i><br>
-								<i class="fa fa-envelope b-git_i_color"></i><br>
-							</div>
-							<p class="b-git_p">Elm St. 14/05 Lost City<br> 
-			     			+ 3528 331 86 35<br> 
-			      			<a class="b-git_mail" href="mailto:test@mail.ru" "email me">info@hexalcorp.com</a></p>
-						</div>
-					</aside>
-				</div><!-- /git_inner -->
-			</div> <!-- /b-git_border-->
-		</div><!-- /git -->
-
-		<footer class="b-footer">
-
-				<p class="b-footer_p">&copy; Copyright 2013 by PSDchat</p>			
-		</footer><!-- /footer -->
-
-	</div>
+	</div> 
 	
 </body>
 </html>

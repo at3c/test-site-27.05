@@ -45,6 +45,5 @@
 }
 
 .b-hex_corner_rotate-minus:before {
-	transform: rotate(60deg) translate(-60px, -11px);
-	bottom:0;
+	transform: rotate(60deg) translate(-60px, -11px);	
 }
