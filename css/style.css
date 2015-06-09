@@ -18,7 +18,7 @@ body, html{
 }
 
 .b-page{
-	flex-grow: 0;
+	flex-grow: 1;
 }
 
 .b-wrapper{
