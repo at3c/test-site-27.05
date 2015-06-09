@@ -12,7 +12,13 @@ body, html{
 	color: #FFF;
 	background-color: #FFF;
 	min-width: 960px;
-	height: 100%;
+	display: flex;
+	flex-direction: column;	
+	min-height: 100vh;
+}
+
+.b-page{
+	flex-grow: 0;
 }
 
 .b-wrapper{
@@ -48,19 +54,14 @@ body, html{
 	margin: 0;
 	font-size: 12px;
 	line-height: 20px;
-	text-align: justify;ы
+	text-align: justify;
 }
 
-.b-page{	
-	min-height: 100%;
-	margin-bottom: -50px;
-}
-
-.b-page:after {
+/*.b-page:after {
 	content: "";
 	display: block;
 	height: 50px;
-}
+}*/
 
 .bg-color_green{
 	background-color: #2EB398;
@@ -454,7 +455,7 @@ body, html{
 	}	
 
 /*Footer*/
-
+	
 	.b-footer .b-wrapper{
 		color: #3C3C3C;
 		padding: 15px 10px;
@@ -533,16 +534,6 @@ body, html{
 	.b-page_p{
 		font-size: 18px;
 		line-height: 26px;
-	}
-
-	.b-page{
-		margin-bottom: -56px;
-	}
-
-	.b-page:after {
-		content: "";
-		display: block;
-		height: 56px;
 	}
 
 	/*Navigation */
